@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(63,63,63);
+}
+#page-logo a {
+    text-decoration: none;
+    color: rgb(36, 227, 103);
+}
+header ul li a {
+    font-size: medium;
+    color: rgb(17, 154, 31);
+}
+header ul li a:hover {
+    color:rgb(215, 233, 76);
+}
+#detacher {
+    position: static;
+}
+main ul {
+    padding: 100px;
+    width:70%;
+    margin: 0 auto 48px auto;
+    list-style: none;
+    display: grid;
+    gap: 20px;
+  
+}
+ul img {
+height: 100px;
+width: 200px;
+object-fit: cover;
+}
+main ul li {
+    align-items: center;
+    background-color: white;
+    border-radius: 6px;
+    display: flex;
+    overflow: hidden;
+}
+.actions {
+    margin: 10px 15px;
+    text-align: right;
+}
+.actions a {
+color: rgb(22,211,222);
+text-decoration: none;
+padding: 10px 15px; 
+border-radius: 8px;
+}
+main ul li:nth-of-type(3) {
+    grid-row: auto;
+}
+.actions a:hover {
+    color: gray;
+   background-color: rgb(22,211,222);;
+}
