@@ -1,0 +1,40 @@
+body{
+    height: 1000px;
+    margin: 0px;
+    margin-top: 300px;
+}
+
+div{
+    background-color: rgb(109, 99, 99);
+    padding: 20px;
+    text-align: center;
+}
+
+p{
+    color: black;
+    padding: 30px;
+    margin: 0;
+}
+.containar {
+    background-color: #361036;
+    position: sticky;
+    top: 0px;
+}
+.containar-wrapper{
+    padding: 0px;
+}
+
+#one{
+    background-color: rgb(195, 0, 255);
+    padding: 10px;
+    
+}
+#two{
+    background-color: rgb(221, 84, 203);
+    padding: 10px;
+
+}
+#three{
+    background-color: rgb(225, 141, 233);
+    padding: 10px;
+}
