@@ -1,0 +1,124 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: sans-serif;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #35dd26;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.26);
+  }
+  
+  header h1 {
+    color: white;
+    font-size: 2rem;
+  }
+  
+  button {
+    background: #c21916;
+    color: white;
+    border: 1px solid #13af73;
+    border-radius: 5px;
+    padding: 0.5rem 2rem;
+    font: inherit;
+    cursor: pointer;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  button:hover,
+  button:active {
+    background: green;
+    border-color: #40c31b;
+  }
+  
+  .cart {
+    position: sticky;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .cart h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: black;
+  }
+  
+  .product-list {
+    list-style: none;
+    margin: 0 2rem;
+    padding: 0;
+  }
+  
+  .product-item {
+    margin: 2rem auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    width: 50rem;
+    max-width: 90%;
+  }
+  
+  .product-item img {
+    width: 800px;
+    height: 500px;
+    object-fit: cover;
+  }
+  
+  .product-item__content {
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .product-item h2,
+  .product-item h3 {
+    margin: 0 0 1rem 0;
+  }
+  section a {
+    text-align: center;
+   font-size: larger;
+    text-decoration: none;
+    font-size: 50px;
+    color: rgb(9, 99, 117);
+    text-shadow: 2px 2px 3px rgba(0,0,0,0,52);
+    text-decoration: none;
+    text-shadow: 1px 1px 1px rgba(240, 230, 230, 0.2);
+    list-style: none;
+    text-decoration: none;
+    border-radius: 6px;
+
+  }
+  
+
+  .btn {
+    align-items: center;
+    justify-self: center;
+    background-color: rgb(182, 194, 205);
+    padding: 12px;
+    text-decoration: none;
+    color: rgb(32, 86, 201);
+    text-shadow: 1px 1px 1px rgb(0,0,0,0.2);
+    list-style: none;
+    text-decoration: none;
+    border-radius: 6px;
+  }
+  .btn a:hover {
+    background-color: rgb(53, 68, 128);
+
+  }
